@@ -1,0 +1,7 @@
+1. EC2インスタンス作成
+2. 以下URLを参考にSSH接続してEC2の各設定
+https://dev.classmethod.jp/articles/aws-beginner-ec2-ssh/
+https://qiita.com/moonbass630/items/5776f5e37c0de077dd35
+3. FileZillaでFTP接続を確認（パーミッションで拒否されたら　chmod -R 777 [ディレクトリ名]　）
+4. index.php でファイルアップロード/ダウンロード
+参考：https://qiita.com/tutida/items/3cee193b9d36ce109a84
