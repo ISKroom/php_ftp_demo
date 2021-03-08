@@ -51,6 +51,13 @@ if (ftp_get($conn_id, $ftp_local_file, $ftp_download_file, FTP_ASCII)) {
     echo "DOWNLOAD 失敗"."\n";
 }
 
+// カレントディレクトリの内容を得る
+// $contents = ftp_nlist($conn_id, "/home/hoge");
+
+// $contents を出力する
+// print_r($contents);
+
+
 // 接続を閉じる
 ftp_close($conn_id);
 
